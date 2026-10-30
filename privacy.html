@@ -18,7 +18,7 @@
 <main class="wrap legal">
 <section>
 <h1>Privacy Policy</h1>
-<p class="effective">Effective date: 28 October 2026</p>
+<p class="effective">Effective date: 30 October 2026</p>
 <p>ZARIVO: Language Tutor is an iPhone app published by Albatros Solutions ("we") that teaches Slovak. This policy
 explains what the app stores and what leaves your iPhone. The short version: the AI tutor, speech recognition and
 the voice all run on the device; your progress stays on your iPhone and, if you use iCloud, in your own private
@@ -30,9 +30,11 @@ tracking or crash-reporting code. We, and any third party, have no access to you
 
 <h2>The AI tutor and your voice</h2>
 <p>Lili, the tutor, is a language model that runs entirely on your iPhone. What you write or say to her is processed
-on the device and never sent anywhere. When you hold the microphone, the app records only while you hold it and
-turns your speech into text on the device (Whisper); the recording is not saved and is never uploaded. iOS asks for
-microphone permission first; without it the rest of the app keeps working.</p>
+on the device and never sent anywhere. In the text chat the app records only while you hold the microphone button.
+In the voice conversation the microphone listens while that screen is open, which the app shows on screen; you can
+pause it or end the conversation at any time. Speech is turned into text on the device (Apple's on-device dictation
+or Whisper); the recording is not saved and is never uploaded. iOS asks for microphone permission first; without it
+the rest of the app keeps working.</p>
 
 <h2>What the app stores</h2>
 <ul>
@@ -48,12 +50,18 @@ phone. That database belongs to you; we cannot read it. Apple handles it under
 
 <h2>Internet connections the app makes</h2>
 <ul>
+<li><strong>The language pack download</strong>: once, after you pick the language, from our public release on
+GitHub (github.com). It holds the lesson recordings, the tutor's voice and speech recognition. The host sees your IP
+address; nothing about you or your learning is sent.</li>
+<li><strong>Apple's dictation files</strong>: iOS may download its on-device dictation files for the language from
+Apple the first time you use the voice conversation.</li>
 <li><strong>The tutor model download</strong>: once, from Hugging Face (huggingface.co), a public file host. Like any
 download, the host sees your IP address; nothing about you or your learning is sent.</li>
 <li><strong>Radio and podcasts</strong>: only when you open them, streams and feeds are loaded from the broadcaster
 (STVR: icecast.stv.livebox.sk, api.stvr.sk) and the podcast hosts (Buzzsprout, Anchor/Spotify).</li>
 </ul>
-<p>Lessons, exercises, exams, texts, the dictionary and the voices are inside the app and work offline.</p>
+<p>Once these downloads are done, lessons, exercises, exams, texts, the dictionary, the voice and speech recognition
+work offline.</p>
 
 <h2>Subscription</h2>
 <p>Level A1 is free. ZARIVO Premium (levels A2–C1) is an auto-renewable subscription bought through Apple. Apple
